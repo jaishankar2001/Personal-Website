@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
+// Must match EXACT GitHub repo name
+const repoName = "Personal-Website";
+
+const basePath =
+  process.env.NODE_ENV === "production" ? `/${repoName}` : "";
 
 const nextConfig: NextConfig = {
   output: "export",

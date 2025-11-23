@@ -1,0 +1,95 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "jaishankar.mohanraj@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:jaishankar.mohanraj@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1 (782) 882-1644",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+17828821644"
+      },
+      {
+        "type": "website",
+        "label": "www.mywebsite.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.mywebsite.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "PES University - 2019-2023",
+        "description": "Bachelor of Mechanical Engineering - Minor in Computer Science."
+      },
+      {
+        "title": "Dalhousie University - 2024-2025",
+        "description": "Master of Applied Computer Science"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Figma",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Photoshop",
+        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Sketch",
+        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Adobe XD",
+        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Framer",
+        "icon": "/images/home/education-skill/framer-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Invasion",
+        "icon": "/images/home/education-skill/invision-icon.svg",
+        "rating": 3
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/jaishankar-mohanraj-903b21197/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "jaishankar.mohanraj@gmail.com",
+        "link": "mailto:jaishankar.mohanraj@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+1 (782) 882-1644",
+        "link": "tel:+17828821644"
+      }
+    ]
+  }
+}

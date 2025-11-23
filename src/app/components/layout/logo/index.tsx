@@ -5,7 +5,7 @@ import Link from "next/link";
 const Logo = () => {
   return (
     <>
-      <Link href="/">
+      <Link href={`${process.env.NEXT_PUBLIC_BASE_PATH}/file`}>
         <Image
           src={getImgPath("/images/logo/8637114.png")}
           alt="logo"

@@ -1,15 +1,13 @@
 import type { NextConfig } from "next";
 
-// Must match EXACT GitHub repo name
 const repoName = "Personal-Website";
 
-const basePath =
-  process.env.NODE_ENV === "production" ? `/${repoName}` : "";
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath,
-  assetPrefix: basePath,
+  basePath: isProd ? `/${repoName}` : "",
+  assetPrefix: isProd ? `/${repoName}/` : "",
   images: {
     unoptimized: true,
   },
@@ -18,7 +16,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repoName}` : "",
   },
 };
 
